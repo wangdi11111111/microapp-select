@@ -1,5 +1,5 @@
 <template>
-  <div style="height: 500px;">
+  <div style="height: 100%;">
     <h1>子应用</h1>
     <el-select
       v-model="value"
@@ -80,6 +80,126 @@
       />
     </el-select>
     <el-select
+      v-model="value"
+      placeholder="Select"
+      size="large"
+      style="width:  100%;margin-bottom: 20px;"
+    >
+      <el-option
+        v-for="item in options"
+        :key="item.value"
+        :label="item.label"
+        :value="item.value"
+      />
+    </el-select><el-select
+      v-model="value"
+      placeholder="Select"
+      size="large"
+      style="width:  100%;margin-bottom: 20px;"
+    >
+      <el-option
+        v-for="item in options"
+        :key="item.value"
+        :label="item.label"
+        :value="item.value"
+      />
+    </el-select><el-select
+      v-model="value"
+      placeholder="Select"
+      size="large"
+      style="width:  100%;margin-bottom: 20px;"
+    >
+      <el-option
+        v-for="item in options"
+        :key="item.value"
+        :label="item.label"
+        :value="item.value"
+      />
+    </el-select><el-select
+      v-model="value"
+      placeholder="Select"
+      size="large"
+      style="width:  100%;margin-bottom: 20px;"
+    >
+      <el-option
+        v-for="item in options"
+        :key="item.value"
+        :label="item.label"
+        :value="item.value"
+      />
+    </el-select><el-select
+      v-model="value"
+      placeholder="Select"
+      size="large"
+      style="width:  100%;margin-bottom: 20px;"
+    >
+      <el-option
+        v-for="item in options"
+        :key="item.value"
+        :label="item.label"
+        :value="item.value"
+      />
+    </el-select><el-select
+      v-model="value"
+      placeholder="Select"
+      size="large"
+      style="width:  100%;margin-bottom: 20px;"
+    >
+      <el-option
+        v-for="item in options"
+        :key="item.value"
+        :label="item.label"
+        :value="item.value"
+      />
+    </el-select><el-select
+      v-model="value"
+      placeholder="Select"
+      size="large"
+      style="width:  100%;margin-bottom: 20px;"
+    >
+      <el-option
+        v-for="item in options"
+        :key="item.value"
+        :label="item.label"
+        :value="item.value"
+      />
+    </el-select><el-select
+      v-model="value"
+      placeholder="Select"
+      size="large"
+      style="width:  100%;margin-bottom: 20px;"
+    >
+      <el-option
+        v-for="item in options"
+        :key="item.value"
+        :label="item.label"
+        :value="item.value"
+      />
+    </el-select><el-select
+      v-model="value"
+      placeholder="Select"
+      size="large"
+      style="width:  100%;margin-bottom: 20px;"
+    >
+      <el-option
+        v-for="item in options"
+        :key="item.value"
+        :label="item.label"
+        :value="item.value"
+      />
+    </el-select><el-select
+      v-model="value"
+      placeholder="Select"
+      size="large"
+      style="width:  100%;margin-bottom: 20px;"
+    >
+      <el-option
+        v-for="item in options"
+        :key="item.value"
+        :label="item.label"
+        :value="item.value"
+      />
+    </el-select><el-select
       v-model="value"
       placeholder="Select"
       size="large"
