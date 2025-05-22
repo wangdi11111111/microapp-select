@@ -241,4 +241,5 @@ const options = [
     label: 'Option5',
   },
 ]
+  new Int16Array()
 </script>
